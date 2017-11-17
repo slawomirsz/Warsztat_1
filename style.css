@@ -1,0 +1,51 @@
+.form {}
+         .form label {
+             font-family: sans-serif;
+             display: block;
+         }
+         .form .form-row {
+             margin-bottom:10px;
+         }
+         .form input,
+         .form textarea {
+             font-family: sans-serif;
+             border:1px solid #333;
+             padding:15px;
+             min-width: 500px;
+         }
+
+         .form input:focus,
+         .form textarea:focus {
+             border:1px solid blue;
+             box-shadow: inset 0 0 0 1px blue;
+             outline: none;
+         }
+
+         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+           color: #aaa;
+         }
+         ::-moz-placeholder { /* Firefox 19+ */
+           color: #aaa;
+         }
+         :-ms-input-placeholder { /* IE 10+ */
+           color: #aaa;
+         }
+         :-moz-placeholder { /* Firefox 18- */
+           color: #aaa;
+         }
+
+/*placeholder szukamy w neci*/
+
+.form input[type=text]
+.form input[type=checkbox] +checbox-icon{
+
+}
+.form input:-moz-paleholder {
+
+}
+.form input{
+
+}
+.form textarea{
+
+}
